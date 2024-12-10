@@ -25,8 +25,8 @@ export const PROJECTS = [
     title: "Job App",
     image: project2,
     description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["HTML", "CSS", "JavaScript", "React", "Node.js"],
+      "Developed Job App, a comprehensive job search platform with login, home, jobs, and job detail pages built using React. Implemented secure user authentication with JWT tokens, REST API integration, and persistent login state. Utilized React Router for protected routes, ensuring seamless navigation and user security.",
+    technologies: ["HTML", "CSS", "React", "Node.js"],
   },
   {
     title: "Portfolio Website",
@@ -36,16 +36,16 @@ export const PROJECTS = [
     technologies: ["HTML", "CSS", "React", "Tailwind"],
   },
   {
-    title: "Blogging ",
+    title: "Nxt Watch",
     image: project4,
     description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
+      "Developed a YouTube-like video streaming platform with features including secure login, categorized video browsing Trending, Gaming), saved videos, content search, and theme customization, leveraging React JS, JWT, REST APIs, and modern web technologies. ",
+    technologies: ["HTML", "CSS", "JavaScrpit", "React"],
   },
 ];
 
 export const CONTACT = {
-  address: "767 Fifth Avenue, New York, NY 10153 ",
+  address: "306 Residency , Gwalior, 474005 ",
   phoneNo: "+91 9828780996 ",
   email: "jainnakul543gmail.com",
 };
