@@ -1,50 +1,33 @@
-import { FaLinkedin } from "react-icons/fa";
-import { FaGithub } from "react-icons/fa";
-import { FaSquareXTwitter } from "react-icons/fa6";
-import { FaInstagram } from "react-icons/fa";
+
 
 const Navbar = () => {
   return (
     <nav className="mb-20 flex items-center justify-between py-6">
+      {/* Logo Section */}
       <div className="flex flex-shrink-0 items-center">
         <h1 className="font-bold text-xl mx-2 bg-white rounded-full p-3 text-black">
           NJ
         </h1>
       </div>
-      <div className="m-8 flex items-center justify-center gap-4 text-2xl">
-        <a
-          href="https://www.linkedin.com/in/nakul-j/"
-          target="_blank"
-          rel="noopener noreferrer"
-          aria-label="LinkedIn"
-        >
-          <FaLinkedin />
+
+      {/* Navigation Links */}
+      <div className="flex items-center gap-8 text-lg">
+        <a href="#home" className="hover:underline">
+          Home
         </a>
-        <a
-          href="https://github.com//nakul139"
-          target="_blank"
-          rel="noopener noreferrer"
-          aria-label="GitHub"
-        >
-          <FaGithub />
+        <a href="#about" className="hover:underline">
+          About
         </a>
-        <a
-          href="https://twitter.com/"
-          target="_blank"
-          rel="noopener noreferrer"
-          aria-label="Twitter"
-        >
-          <FaSquareXTwitter />
+        <a href="#projects" className="hover:underline">
+          Projects
         </a>
-        <a
-          href="https://www.instagram.com/nakul.jainnn/"
-          target="_blank"
-          rel="noopener noreferrer"
-          aria-label="Instagram"
-        >
-          <FaInstagram />
+        <a href="#contact" className="hover:underline">
+          Contact
         </a>
       </div>
+
+      {/* Social Media Links */}
+      
     </nav>
   );
 };
